@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 562px) {
+    .max-w-custom {
+        max-width: 415px;
+        margin: 0 auto;
+    }
+}
+a {
+    text-decoration: none;
+}
+.bold {
+    font-weight: 700;
+}
+.w-full {
+    width: 100%;
+}
+.bg-main {
+    background-color: #111111;
+}
+.h-screen {
+    height: 100vh;
+}
+.h-full {
+    height: 100%;
+}
+.relative {
+    position: relative;
+}
+.px-4 {
+    padding: 0 1.3rem;
+}
+.py-4 {
+    padding: 1.3rem 0;
+}
+.pt-4 {
+    padding-top: 1.3rem;
+}
+.pt-2 {
+    padding-top: .65rem;
+}
+.mt-5 {
+    margin-top: 1rem;
+}
+/* FONT */
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+.font-teko {
+    font-family: 'Teko', sans-serif;
+}
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+.font-barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+/* COLORING */
+.text-white {
+    color: #fff;
+}
+
+button {
+    outline: none;
+    border: unset;
+    cursor: pointer;
+}
+.text-gradient-yellow {
+    background: linear-gradient(180deg, #000000 0%, #FFCD3E 0.01%, #FFA02E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
